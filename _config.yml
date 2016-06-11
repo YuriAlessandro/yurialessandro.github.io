@@ -31,8 +31,8 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
+  copyright: Dr. Henry Jekyll - alterado por Yuri Alessandro Martins
+  location: Localização
   social: Redes Sociais
   credits: Créditos
 
@@ -55,7 +55,7 @@ address:
   - line: Brasil
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Yuri Alessandro Martins - Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown

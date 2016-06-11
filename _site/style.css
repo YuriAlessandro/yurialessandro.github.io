@@ -90,6 +90,8 @@ header {
     text-align: center;
     color: #fff;
     background-image: url("img/bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header .container {
@@ -189,11 +191,15 @@ section h2 {
 section.success {
     color: #fff;
     background-image: url("img/bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.gith {
     color: #fff;
     background-image: url("img/gh.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 @media(max-width:767px) {
@@ -348,6 +354,8 @@ footer h3 {
 footer .footer-above {
     padding-top: 50px;
     background-image: url("img/bg.jpg");;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 footer .footer-col {
