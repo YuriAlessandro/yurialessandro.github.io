@@ -184,6 +184,11 @@ section.success {
     background-image: url("img/bg.jpg");
 }
 
+section.gith {
+    color: #fff;
+    background-image: url("img/gh.jpg");
+}
+
 @media(max-width:767px) {
     section {
         padding: 75px 0;
@@ -453,4 +458,12 @@ footer .footer-below {
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
+}
+
+.img-circle {
+    width: 200px;
+    height: 200px;
+    color: #FFF;
+    background-color: #000;
+    border-radius: 50%;
 }
