@@ -5,13 +5,13 @@
     <description>Simples expositório com meus projetos variados, o compartilhamento do meu (em desenvolvimento) conhecimento.</description>
     <link>127.0.0.1:4000/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 11 Jun 2016 13:37:12 -0300</pubDate>
-    <lastBuildDate>Sat, 11 Jun 2016 13:37:12 -0300</lastBuildDate>
+    <pubDate>Sat, 11 Jun 2016 14:35:34 -0300</pubDate>
+    <lastBuildDate>Sat, 11 Jun 2016 14:35:34 -0300</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>Bares</title>
-        <description>Basic ARithmetic Expression evaluator based on Stacks. Feito em parceria com &lt;a href=&quot;https://github.com/GustavoAC&quot;&gt;Gustavo Araújo&lt;/a&gt;. &lt;a href=&quot;https://github.com/YuriAlessandro/BARES&quot;&gt;Clique aqui&lt;/a&gt; para seguir ao repositório desse programa.</description>
+        <description>Simples calculadora de números inteiros. Feito em parceria com &lt;a href=&quot;https://github.com/GustavoAC&quot;&gt;Gustavo Araújo&lt;/a&gt;.</description>
         <pubDate>Sun, 15 May 2016 00:00:00 -0300</pubDate>
         <link>127.0.0.1:4000/c++/2016/05/15/bares/</link>
         <guid isPermaLink="true">127.0.0.1:4000/c++/2016/05/15/bares/</guid>
@@ -23,7 +23,7 @@
     
       <item>
         <title>Tads</title>
-        <description>Projeto que implementa diversas estruturas de dados (Tipos Abstratos de Dadados, ou TADs), entre outras coisas. &lt;a href=&quot;https://github.com/YuriAlessandro/Algorithms/tree/master/C%2B%2B&quot;&gt;Clique aqui&lt;/a&gt; para seguir para o repositório no GitHub.</description>
+        <description>Projeto que implementa diversas estruturas de dados (Tipos Abstratos de Dadados, ou TADs), entre outras coisas.</description>
         <pubDate>Sat, 14 May 2016 00:00:00 -0300</pubDate>
         <link>127.0.0.1:4000/c++/2016/05/14/tads/</link>
         <guid isPermaLink="true">127.0.0.1:4000/c++/2016/05/14/tads/</guid>
@@ -34,8 +34,32 @@
       </item>
     
       <item>
+        <title>Keno game</title>
+        <description>Implementação simples de um Keno Game. Feito em parceria com &lt;a href=&quot;https://github.com/GustavoAC&quot;&gt;Gustavo Araújo&lt;/a&gt;.</description>
+        <pubDate>Wed, 11 May 2016 00:00:00 -0300</pubDate>
+        <link>127.0.0.1:4000/documentos/2016/05/11/Keno-Game/</link>
+        <guid isPermaLink="true">127.0.0.1:4000/documentos/2016/05/11/Keno-Game/</guid>
+        
+        
+        <category>Documentos</category>
+        
+      </item>
+    
+      <item>
+        <title>Processador ppm</title>
+        <description>Um simples processador de imagens do tipo &quot;.ppm&quot;. Feito em parceria com &lt;a href=&quot;https://github.com/GustavoAC&quot;&gt;Gustavo Araújo&lt;/a&gt;.</description>
+        <pubDate>Tue, 10 May 2016 00:00:00 -0300</pubDate>
+        <link>127.0.0.1:4000/documentos/2016/05/10/Processador-PPM/</link>
+        <guid isPermaLink="true">127.0.0.1:4000/documentos/2016/05/10/Processador-PPM/</guid>
+        
+        
+        <category>Documentos</category>
+        
+      </item>
+    
+      <item>
         <title>Bti documents</title>
-        <description>Vários documentos que visam resumir o conteúdo das matérias do curso de Bacharelado em Tecnologia da Informação da Universidade Federal do Rio Grande do Norte. O objetivo é estar sempre adicionando mais documentos para que os próximos alunos dessas disciplinas possam ter uma base e um caminho bom para estudar. &lt;a href=&quot;hhttps://github.com/YuriAlessandro/BTI-Documents&quot;&gt;Clique aqui&lt;/a&gt; para seguir para o repositório no GitHub.</description>
+        <description>Compilado com vários documentos do BTI.</description>
         <pubDate>Tue, 10 May 2016 00:00:00 -0300</pubDate>
         <link>127.0.0.1:4000/documentos/2016/05/10/BTI-Documents/</link>
         <guid isPermaLink="true">127.0.0.1:4000/documentos/2016/05/10/BTI-Documents/</guid>

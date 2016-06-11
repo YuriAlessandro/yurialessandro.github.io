@@ -54,7 +54,11 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
+                        <a href="#inicio">Início</a>
+                    <li class="page-scroll">
                         <a href="#portfolio">Projetos</a>
+                    <li class="page-scroll">
+                        <a href="#github">GitHub</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#about">Sobre</a>
@@ -69,6 +73,7 @@
         <!-- /.container-fluid -->
     </nav>
         <!-- Header -->
+<section id="inicio">
     <header>
         <div class="container">
             <div class="row">
@@ -78,11 +83,15 @@
                         <span class="name">YuriAlessandro</span>
                         <hr class="star-light">
                         <span class="skills">Estudante do Bacharelado em Tecnologia da Informação - UFRN</span>
+                        <hr>
                     </div>
                 </div>
             </div>
         </div>
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
+
     </header>
+</section>
     
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
@@ -126,11 +135,54 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
+                            <img src="img/portfolio/keno.png" class="img-responsive" alt="image-alt">
+                        </a>
+                    <h2>Keno game</h2> 
+                    </div>
+                
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal-4" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/ppm.png" class="img-responsive" alt="image-alt">
+                        </a>
+                    <h2>Processador ppm</h2> 
+                    </div>
+                
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal-5" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
                             <img src="img/portfolio/btid.png" class="img-responsive" alt="image-alt">
                         </a>
                     <h2>Bti documents</h2> 
                     </div>
                 
+            </div>
+        </div>
+    </section>
+    <section id="github">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>GitHub</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <center>
+                    <hr>
+                        <a class="github-button" href="https://github.com/YuriAlessandro" data-style="mega">Perfil no GitHub</a>
+                        
+                        <a class="github-button" href="https://github.com/YuriAlessandro" data-style="mega" data-count-href="/YuriAlessandro/followers" data-count-api="/users/YuriAlessandro#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @YuriAlessandro on GitHub">Seguir @YuriAlessandro</a>
+                    <hr>
+                </center>
             </div>
         </div>
     </section>
@@ -278,7 +330,80 @@
                             <h2>Bares</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/bares.png" class="img-responsive img-centered" alt="image-alt">
-                            <p>Basic ARithmetic Expression evaluator based on Stacks. Feito em parceria com <a href="https://github.com/GustavoAC">Gustavo Araújo</a>. <a href="https://github.com/YuriAlessandro/BARES">Clique aqui</a> para seguir ao repositório desse programa.</p>
+                            <p>Simples calculadora de números inteiros. Feito em parceria com <a href="https://github.com/GustavoAC">Gustavo Araújo</a>.</p>
+                            <hr>
+                            
+                            <a class="github-button" href="https://github.com/YuriAlessandro/BARES" data-icon="octicon-eye" data-style="mega">Ver repositório desse projeto</a>
+                            
+                            <a class="github-button" href="https://github.com/YuriAlessandro/BARES" data-icon="octicon-repo-forked" data-style="mega" data-count-href="https://github.com/YuriAlessandro/BARES/network">Fork</a>
+
+                            <a class="github-button" href="https://github.com/YuriAlessandro/BARES/archive/master.zip" data-icon="octicon-cloud-download" data-style="mega" aria-label="Download YuriAlessandro/Image-Processor on GitHub">Download</a>
+
+                            <hr>
+                            <a class="github-button" href="https://github.com/YuriAlessandro" data-style="mega" data-count-href="/YuriAlessandro/followers" data-count-api="/users/YuriAlessandro#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @YuriAlessandro on GitHub">Seguir @YuriAlessandro</a>
+                            <hr>
+
+                            <h1 id="projeto-bares">Projeto BARES</h1>
+<p>Basic ARithmetic Expression evaluator based on Stacks.</p>
+
+<p>BARES é um programa que analisa uma expressão matemática simples, que contenha
+constantes numéricas inteiras. Ela faz uso de dois Tipos Abstratos de Dados (TADs),
+pilha e fila, que foram apresentados em sala de aula durante a disciplina de Estrutura 
+de Dados Básica do curso de Bacharelado em Tecnologia da Informação da Universidade 
+Federal do  Rio Grande do Norte.</p>
+
+<p>O objetivo final dessa aplicação, portanto, é fixar o conteúdo ministrado em sala de aula
+com relação a essas duas TADs e incitar a criação de um programa mais complexo.</p>
+
+<p>Esse programa será capaz de analisar a expressão e dizer se ocorre erros, onde 
+esse erro ocorre, qual o erro e, caso a expressão seja válida, o valor da expressão.</p>
+
+<h2 id="como-rodar-o-programa">Como rodar o programa</h2>
+<p>Antes de rodar o programa, você deve criar um arquivo contendo as expressões que
+você deseja que sejam analisadas (desde que essas expressões sigam as condições 
+descritas na descrição do projeto).</p>
+
+<p>Um exemplo de um arquivo de entrada:</p>
+
+<pre><code class="language-Shell">    10000000 - 2
+    3 * d
+     (5 % 3) ^4
+</code></pre>
+
+<p>Acesse a pasta principal do programa, abra-a no terminal e dê o comando:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ ./bin/exe &lt;arquivo&gt;
+</code></pre>
+</div>
+
+<p>Você pode ser capaz de mandar a saída para um outro arquivo externo, executando
+o programa da seguinte maneira:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ ./bin/exe &lt;arquivo_entrada&gt; &gt; &lt;arquivo_saida&gt;
+</code></pre>
+</div>
+
+<h2 id="detalhes">Detalhes</h2>
+<p>Este programa foi desenvolvido em C++11. Para compilar, abra no terminal e 
+a pasta principal do programa e dê o comando:</p>
+
+<pre><code class="language-Shell">    &amp; make
+</code></pre>
+
+<h2 id="documentao">Documentação</h2>
+<p>A documentação completa desse programa pode ser encontrada no nosso repositório, em ‘html/index.html’</p>
+
+<h2 id="autoria">Autoria</h2>
+<ul>
+  <li>Gustavo Carvalho</li>
+  <li>Yuri Alessandro Martins</li>
+</ul>
+
+<p>Realizado como proposta da disciplina de Linguagem de Programação, do curso de
+Bacharelado em Tecnologia da Informação da UFRN.</p>
+
+                            
+                            <hr>
                             <ul class="list-inline item-details">
                                 <li>Data:
                                     <strong><a href="https://github.com/YuriAlessandro">Maio 2016</a>
@@ -296,6 +421,7 @@
             </div>
         </div>
     </div>
+<script async defer src="https://buttons.github.io/buttons.js"></script>
 
     <div class="portfolio-modal modal fade" id="portfolioModal-1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
@@ -312,7 +438,23 @@
                             <h2>Tads</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/bd.png" class="img-responsive img-centered" alt="image-alt">
-                            <p>Projeto que implementa diversas estruturas de dados (Tipos Abstratos de Dadados, ou TADs), entre outras coisas. <a href="https://github.com/YuriAlessandro/Algorithms/tree/master/C%2B%2B">Clique aqui</a> para seguir para o repositório no GitHub.</p>
+                            <p>Projeto que implementa diversas estruturas de dados (Tipos Abstratos de Dadados, ou TADs), entre outras coisas.</p>
+                            <hr>
+                            
+                            <a class="github-button" href="https://github.com/YuriAlessandro/Algorithms/tree/master/C%2B%2B" data-icon="octicon-eye" data-style="mega">Ver repositório desse projeto</a>
+                            
+                            <a class="github-button" href="https://github.com/YuriAlessandro/Algorithms/tree/master/C%2B%2B" data-icon="octicon-repo-forked" data-style="mega" data-count-href="https://github.com/YuriAlessandro/Algorithms/tree/master/C%2B%2B/network">Fork</a>
+
+                            <a class="github-button" href="https://github.com/YuriAlessandro/Algorithms/tree/master/C%2B%2B/archive/master.zip" data-icon="octicon-cloud-download" data-style="mega" aria-label="Download YuriAlessandro/Image-Processor on GitHub">Download</a>
+
+                            <hr>
+                            <a class="github-button" href="https://github.com/YuriAlessandro" data-style="mega" data-count-href="/YuriAlessandro/followers" data-count-api="/users/YuriAlessandro#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @YuriAlessandro on GitHub">Seguir @YuriAlessandro</a>
+                            <hr>
+
+                            
+
+                            
+                            <hr>
                             <ul class="list-inline item-details">
                                 <li>Data:
                                     <strong><a href="https://github.com/YuriAlessandro">Maio 2016</a>
@@ -330,6 +472,7 @@
             </div>
         </div>
     </div>
+<script async defer src="https://buttons.github.io/buttons.js"></script>
 
     <div class="portfolio-modal modal fade" id="portfolioModal-3" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
@@ -343,10 +486,86 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Bti documents</h2>
+                            <h2>Keno game</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/btid.png" class="img-responsive img-centered" alt="image-alt">
-                            <p>Vários documentos que visam resumir o conteúdo das matérias do curso de Bacharelado em Tecnologia da Informação da Universidade Federal do Rio Grande do Norte. O objetivo é estar sempre adicionando mais documentos para que os próximos alunos dessas disciplinas possam ter uma base e um caminho bom para estudar. <a href="hhttps://github.com/YuriAlessandro/BTI-Documents">Clique aqui</a> para seguir para o repositório no GitHub.</p>
+                            <img src="img/portfolio/keno.png" class="img-responsive img-centered" alt="image-alt">
+                            <p>Implementação simples de um Keno Game. Feito em parceria com <a href="https://github.com/GustavoAC">Gustavo Araújo</a>.</p>
+                            <hr>
+                            
+                            <a class="github-button" href="https://github.com/YuriAlessandro/KenoGame" data-icon="octicon-eye" data-style="mega">Ver repositório desse projeto</a>
+                            
+                            <a class="github-button" href="https://github.com/YuriAlessandro/KenoGame" data-icon="octicon-repo-forked" data-style="mega" data-count-href="https://github.com/YuriAlessandro/KenoGame/network">Fork</a>
+
+                            <a class="github-button" href="https://github.com/YuriAlessandro/KenoGame/archive/master.zip" data-icon="octicon-cloud-download" data-style="mega" aria-label="Download YuriAlessandro/Image-Processor on GitHub">Download</a>
+
+                            <hr>
+                            <a class="github-button" href="https://github.com/YuriAlessandro" data-style="mega" data-count-href="/YuriAlessandro/followers" data-count-api="/users/YuriAlessandro#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @YuriAlessandro on GitHub">Seguir @YuriAlessandro</a>
+                            <hr>
+
+                            <h1 id="keno-game">Keno Game</h1>
+<p>Bem vindo ao Keno.</p>
+
+<p>O Keno é um jogo de azar composto por uma tabela com 80 valores, no qual
+o jogador deve escolher até 15 números, entre 1 e 80. O jogo então sorteia 
+20 valores da tabela. Dependendo da quantidade de acertos, o jogador pode
+faturar um prêmio, ou perder o dinheiro apostado.</p>
+
+<h2 id="como-jogar-linux">Como jogar (Linux)</h2>
+<p>Para jogar a partir desse programa é simples: Você deverá criar um arquivo num
+formato qualquer (exemplo: myfile.txt) dentro da pasta data com a seguinte estrutura:</p>
+
+<pre><code class="language-Shell">    DINHEIRO INICIAL
+    RODADAS A SEREM JOGADAS
+    VALORES APOSTADOS
+</code></pre>
+<p>Um exemplo:</p>
+
+<pre><code class="language-Shell">    1500
+    3
+    52 12 60
+</code></pre>
+
+<p>Após salvar o arquivo (na pasta data), você deverá executar o programa em seu
+terminal da seguinte maneira:</p>
+
+<pre><code class="language-Shell">    &amp; ./[Nome do executável] [Nome do arquivo]
+</code></pre>
+
+<p>Um exemplo:</p>
+
+<pre><code class="language-Shell">    &amp; ./KenoGame myfile.txt
+</code></pre>
+
+<p>O jogo então será executado, e você poderá conferir como se saiu.</p>
+
+<p>A pasta ‘data’ possui alguns arquivos exemplos.</p>
+
+<h4 id="dvidas">Dúvidas?</h4>
+<p>Caso esteja com dúvidas, apenas execute o programa sem nenhum argumento no seu
+terminal e um modo padrão será jogado, assim você pode se familiarizar com a interface
+e a mecânica do jogo.</p>
+
+<h2 id="detalhes">Detalhes</h2>
+<p>Este jogo foi desenvolvido em C++11. Para compilar, faça:</p>
+
+<pre><code class="language-Shell">    &amp; g++ -Wall -std=c++11 -I include/ src/keno_main.cpp src/functions.cpp src/classes.cpp -o bin/[nome do arquivo]
+</code></pre>
+
+<h2 id="documentao">Documentação</h2>
+<p>A documentação completa desse programa pode ser encontrada no nosso repositório, em ‘html/index.html’</p>
+
+<h2 id="autores">Autores</h2>
+<p>Jogo criador por:</p>
+
+<pre><code class="language-Shell">    * Gustavo Araújo Carvalho
+    * Yuri Alessandro Martins
+</code></pre>
+
+<p>Realizado como proposta da disciplina de Linguagem de Programação, do curso de
+Bacharelado em Tecnologia da Informação da UFRN.</p>
+
+                            
+                            <hr>
                             <ul class="list-inline item-details">
                                 <li>Data:
                                     <strong><a href="https://github.com/YuriAlessandro">Maio 2016</a>
@@ -364,6 +583,163 @@
             </div>
         </div>
     </div>
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal-4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Processador ppm</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/ppm.png" class="img-responsive img-centered" alt="image-alt">
+                            <p>Um simples processador de imagens do tipo ".ppm". Feito em parceria com <a href="https://github.com/GustavoAC">Gustavo Araújo</a>.</p>
+                            <hr>
+                            
+                            <a class="github-button" href="https://github.com/YuriAlessandro/Image-Processor" data-icon="octicon-eye" data-style="mega">Ver repositório desse projeto</a>
+                            
+                            <a class="github-button" href="https://github.com/YuriAlessandro/Image-Processor" data-icon="octicon-repo-forked" data-style="mega" data-count-href="https://github.com/YuriAlessandro/Image-Processor/network">Fork</a>
+
+                            <a class="github-button" href="https://github.com/YuriAlessandro/Image-Processor/archive/master.zip" data-icon="octicon-cloud-download" data-style="mega" aria-label="Download YuriAlessandro/Image-Processor on GitHub">Download</a>
+
+                            <hr>
+                            <a class="github-button" href="https://github.com/YuriAlessandro" data-style="mega" data-count-href="/YuriAlessandro/followers" data-count-api="/users/YuriAlessandro#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @YuriAlessandro on GitHub">Seguir @YuriAlessandro</a>
+                            <hr>
+
+                            <h1 id="image-processor-ppm">Image Processor (.ppm)</h1>
+<p>A simple image processor that processes “.ppm” images type</p>
+
+<p>MADE BY Yuri Alessandro and Gustavo Araújo –&gt; www.github.com/GustavoAC</p>
+
+<h2 id="documentation">Documentation</h2>
+<p>All documentation can be viewed in two ways:
+  1. In an HTML - for this, just open ../html/main_8c.html
+  2. In an RTF file - just open ../rtf/refman.rtf</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>  --&gt; All comments are currently in Portuguese (PT / BR). Collaborate, translate them into other languages.
+</code></pre>
+</div>
+
+<h2 id="main-functions">Main functions</h2>
+<pre><code class="language-Shell">void 	ef_thresholding
+ 
+void 	ef_blur
+ 
+void 	ef_sharpening
+ 
+void 	ef_rotate_left
+ 
+void 	ef_enlarge
+ 
+void 	ef_reduce
+ 
+void 	ef_black_white
+ 
+void 	ef_horizontal_mirror
+ 
+void 	ef_border_detection
+ 
+void 	ef_negative
+ 
+void 	ef_sepia
+</code></pre>
+
+<h5 id="for-more-details-visit-the-documentation">–&gt; For more details, visit the documentation</h5>
+<p>## Do your part
+Help this code to get better, correct their mistakes and otmize their functions. Join.</p>
+
+
+                            
+                            <hr>
+                            <ul class="list-inline item-details">
+                                <li>Data:
+                                    <strong><a href="https://github.com/YuriAlessandro">Maio 2016</a>
+                                    </strong>
+                                </li>
+                                <li>Categoria:
+                                    <strong><a href="https://github.com/YuriAlessandro">Documentos</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal-5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Bti documents</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/btid.png" class="img-responsive img-centered" alt="image-alt">
+                            <p>Compilado com vários documentos do BTI.</p>
+                            <hr>
+                            
+                            <a class="github-button" href="https://github.com/YuriAlessandro/BTI-Documents" data-icon="octicon-eye" data-style="mega">Ver repositório desse projeto</a>
+                            
+                            <a class="github-button" href="https://github.com/YuriAlessandro/BTI-Documents" data-icon="octicon-repo-forked" data-style="mega" data-count-href="https://github.com/YuriAlessandro/BTI-Documents/network">Fork</a>
+
+                            <a class="github-button" href="https://github.com/YuriAlessandro/BTI-Documents/archive/master.zip" data-icon="octicon-cloud-download" data-style="mega" aria-label="Download YuriAlessandro/Image-Processor on GitHub">Download</a>
+
+                            <hr>
+                            <a class="github-button" href="https://github.com/YuriAlessandro" data-style="mega" data-count-href="/YuriAlessandro/followers" data-count-api="/users/YuriAlessandro#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @YuriAlessandro on GitHub">Seguir @YuriAlessandro</a>
+                            <hr>
+
+                            <h1 id="bti-documents">BTI-Documents</h1>
+
+<p>Um compilado com alguns documentos que realizam um estudo dirigido de algumas disciplinas do Bacharelado em Tecnologia da Informação da Universidade Federal do Rio Grande do Norte.</p>
+
+<p>O objetivo aqui é compartilhar conhecimento e informação para as outras pessoas, e buscar direcionar o estudo por meio de um “documento-resumo”.</p>
+
+<h1 id="como-usar-os-arquivos-tex">Como usar os arquivos .tex</h1>
+<p>Você é capaz de compilar os arquivos .tex e gerar um .pdf usando (Linux):</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ pdflatex &lt;nome&gt;.tex
+</code></pre>
+</div>
+
+<p>Caso você não possua um Latex instalado em sua máquina, <a href="http://ubuntued.info/como-instalar-o-latex-no-ubuntu">clique aqui</a></p>
+
+                            
+                            <hr>
+                            <ul class="list-inline item-details">
+                                <li>Data:
+                                    <strong><a href="https://github.com/YuriAlessandro">Maio 2016</a>
+                                    </strong>
+                                </li>
+                                <li>Categoria:
+                                    <strong><a href="https://github.com/YuriAlessandro">Documentos</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script async defer src="https://buttons.github.io/buttons.js"></script>
 
      <!-- jQuery Version 1.11.0 -->
     <script src="/js/jquery-1.11.0.js"></script>

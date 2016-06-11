@@ -16,6 +16,21 @@
                             <hr class="star-primary">
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             <p>{{ post.description }}</p>
+                            <hr>
+                            
+                            <a class="github-button" href="{{ post.repo }}" data-icon="octicon-eye" data-style="mega">Ver repositório desse projeto</a>
+                            
+                            <a class="github-button" href="{{post.repo}}" data-icon="octicon-repo-forked" data-style="mega" data-count-href="{{post.repo}}/network">Fork</a>
+
+                            <a class="github-button" href="{{post.repo}}/archive/master.zip" data-icon="octicon-cloud-download" data-style="mega" aria-label="Download YuriAlessandro/Image-Processor on GitHub">Download</a>
+
+                            <hr>
+                            <a class="github-button" href="https://github.com/YuriAlessandro" data-style="mega" data-count-href="/YuriAlessandro/followers" data-count-api="/users/YuriAlessandro#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @YuriAlessandro on GitHub">Seguir @YuriAlessandro</a>
+                            <hr>
+
+                            {{ post.content }}
+                            
+                            <hr>
                             <ul class="list-inline item-details">
                                 <li>Data:
                                     <strong><a href="https://github.com/YuriAlessandro">{{ post.project-date }}</a>
@@ -33,4 +48,5 @@
             </div>
         </div>
     </div>
+<script async defer src="https://buttons.github.io/buttons.js"></script>
 {% endfor %}
