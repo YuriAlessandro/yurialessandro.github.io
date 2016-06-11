@@ -1,0 +1,23 @@
+---
+layout: default
+modal-id: 6
+date: 2016-05-10
+img: BARES-logo.png
+alt: image-alt
+project-date: April 2014
+category: C++
+description: Basic ARithmetic Expression evaluator based on Stacks.
+
+BARES é um programa que analisa uma expressão matemática simples, que contenha
+constantes numéricas inteiras. Ela faz uso de dois Tipos Abstratos de Dados (TADs),
+pilha e fila, que foram apresentados em sala de aula durante a disciplina de Estrutura 
+de Dados Básica do curso de Bacharelado em Tecnologia da Informação da Universidade 
+Federal do  Rio Grande do Norte.
+
+O objetivo final dessa aplicação, portanto, é fixar o conteúdo ministrado em sala de aula
+com relação a essas duas TADs e incitar a criação de um programa mais complexo.
+
+Esse programa será capaz de analisar a expressão e dizer se ocorre erros, onde 
+esse erro ocorre, qual o erro e, caso a expressão seja válida, o valor da expressão.
+
+---
