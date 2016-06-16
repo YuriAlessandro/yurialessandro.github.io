@@ -1,0 +1,18 @@
+{% for blog in site.blog %}
+<div class="portfolio-modal modal fade" id="post-{{ blog.blog-id }}">
+    <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <h1>{{ blog.title }}</h1>
+                {{ blog.dc }}
+                <hr>
+                {{ blog.content }}
+            </div>
+    </div>
+</div>
+{% endfor %}

@@ -6,6 +6,8 @@ description: "Simples expositório com meus projetos variados, o compartilhament
 skills: "C | C++ | LaTeX"
 meta_author: Martins YuriAlessandro
 
+collections:
+  - blog
 # Google webmaster tools
 google_verify:
 

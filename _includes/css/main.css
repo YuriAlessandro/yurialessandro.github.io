@@ -475,3 +475,8 @@ footer .footer-below {
     background-color: #000;
     border-radius: 50%;
 }
+
+.blog.fade.in {
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+}
