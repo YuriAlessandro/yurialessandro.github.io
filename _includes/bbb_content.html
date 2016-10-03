@@ -1,0 +1,28 @@
+{% for post in site.bbb %}
+<div class="portfolio-modal modal fade" id="post-{{ post.post-id }}">
+    <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <h1>{{ post.title }}</h1>
+                <hr class="star-primary">
+                {{ post.dc }}
+                <hr>       
+                    <a class="github-button" href="{{ post.repo }}" data-icon="octicon-eye" data-style="mega">Ver repositório desse projeto</a>
+                    
+                    <a class="github-button" href="{{post.repo}}" data-icon="octicon-repo-forked" data-style="mega" data-count-href="{{post.repo}}/network">Fork</a>
+
+                    <a class="github-button" href="{{post.repo}}/archive/master.zip" data-icon="octicon-cloud-download" data-style="mega" aria-label="Download YuriAlessandro/Image-Processor on GitHub">Download</a>
+
+                <hr>
+                {% if post.video %} {{ post.video }} {% endif %}
+                <hr>
+                {{ post.content }}
+            </div>
+    </div>
+</div>
+{% endfor %}

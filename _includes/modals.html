@@ -1,0 +1,50 @@
+ <!-- Portfolio Modals -->
+ {% for post in site.posts %}
+    <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>{{ post.title }}</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.description }}</p>
+                            <hr>
+                            
+                            <a class="github-button" href="{{ post.repo }}" data-icon="octicon-eye" data-style="mega">Ver repositório desse projeto</a>
+                            
+                            <a class="github-button" href="{{post.repo}}" data-icon="octicon-repo-forked" data-style="mega" data-count-href="{{post.repo}}/network">Fork</a>
+
+                            <a class="github-button" href="{{post.repo}}/archive/master.zip" data-icon="octicon-cloud-download" data-style="mega" aria-label="Download YuriAlessandro/Image-Processor on GitHub">Download</a>
+
+                            <hr>
+                            <a class="github-button" href="https://github.com/YuriAlessandro" data-style="mega" data-count-href="/YuriAlessandro/followers" data-count-api="/users/YuriAlessandro#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @YuriAlessandro on GitHub">Seguir @YuriAlessandro</a>
+                            <hr>
+                            <p align="left">{{ post.content }}</p>
+                            <hr>
+                            <ul class="list-inline item-details">
+                                <li>Data:
+                                    <strong>{{ post.project-date }}
+                                    </strong>
+                                </li>
+                                <li>Categoria:
+                                    <strong>{{ post.category }}
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+{% endfor %}
