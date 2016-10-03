@@ -5,13 +5,13 @@
     <description>Simples expositório com meus projetos variados, o compartilhamento do meu (em desenvolvimento) conhecimento.</description>
     <link>127.0.0.1:4000/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 11 Jun 2016 13:22:46 -0300</pubDate>
-    <lastBuildDate>Sat, 11 Jun 2016 13:22:46 -0300</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <pubDate>Mon, 03 Oct 2016 20:21:59 -0300</pubDate>
+    <lastBuildDate>Mon, 03 Oct 2016 20:21:59 -0300</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>Bares</title>
-        <description>&lt;h1&gt; Basic ARithmetic Expression evaluator based on Stacks.&lt;/h1&gt; BARES é um programa que analisa uma expressão matemática simples, que contenha constantes numéricas inteiras. Esse programa será capaz de analisar a expressão e dizer se ocorre erros, onde esse erro ocorre, qual o erro e, caso a expressão seja válida, o valor da expressão. Feito em parceria com &lt;a href=&quot;https://github.com/GustavoAC&quot;&gt;Gustavo Araújo&lt;/a&gt;. &lt;a href=&quot;https://github.com/YuriAlessandro/BARES&quot;&gt;Clique aqui&lt;/a&gt; para seguir ao repositório desse programa.</description>
+        <description>Simples calculadora de números inteiros. Feito em parceria com &lt;a href=&quot;https://github.com/GustavoAC&quot;&gt;Gustavo Araújo&lt;/a&gt;.</description>
         <pubDate>Sun, 15 May 2016 00:00:00 -0300</pubDate>
         <link>127.0.0.1:4000/c++/2016/05/15/bares/</link>
         <guid isPermaLink="true">127.0.0.1:4000/c++/2016/05/15/bares/</guid>
@@ -22,11 +22,11 @@
       </item>
     
       <item>
-        <title>Keno game</title>
-        <description>O Keno é um jogo de azar composto por uma tabela com 80 valores, no qual o jogador deve escolher até 15 números, entre 1 e 80. O jogo então sorteia 20 valores da tabela. Dependendo da quantidade de acertos, o jogador pode faturar um prêmio, ou perder até todo o dinheiro apostado. Realizado em parceria com &lt;a href=&quot;https://github.com/GustavoAC&quot;&gt;Gustavo Araújo&lt;/a&gt;. &lt;a href=&quot;https://github.com/YuriAlessandro/Algorithms/tree/master/C%2B%2B&quot;&gt;Clique aqui&lt;/a&gt; para seguir para o repositório no GitHub.</description>
+        <title>Tads</title>
+        <description>Projeto que implementa diversas estruturas de dados (Tipos Abstratos de Dadados, ou TADs), entre outras coisas.</description>
         <pubDate>Sat, 14 May 2016 00:00:00 -0300</pubDate>
-        <link>127.0.0.1:4000/c++/2016/05/14/Keno-Game/</link>
-        <guid isPermaLink="true">127.0.0.1:4000/c++/2016/05/14/Keno-Game/</guid>
+        <link>127.0.0.1:4000/c++/2016/05/14/tads/</link>
+        <guid isPermaLink="true">127.0.0.1:4000/c++/2016/05/14/tads/</guid>
         
         
         <category>C++</category>
@@ -34,11 +34,11 @@
       </item>
     
       <item>
-        <title>Documentos do bti</title>
-        <description>Vários documentos que visam resumir o conteúdo das matérias do curso de Bacharelado em Tecnologia da Informação da Universidade Federal do Rio Grande do Norte. O objetivo é estar sempre adicionando mais documentos para que os próximos alunos dessas disciplinas possam ter uma base e um caminho bom para estudar. &lt;a href=&quot;hhttps://github.com/YuriAlessandro/BTI-Documents&quot;&gt;Clique aqui&lt;/a&gt; para seguir para o repositório no GitHub.</description>
-        <pubDate>Thu, 12 May 2016 00:00:00 -0300</pubDate>
-        <link>127.0.0.1:4000/documentos/2016/05/12/Documentos-do-BTI/</link>
-        <guid isPermaLink="true">127.0.0.1:4000/documentos/2016/05/12/Documentos-do-BTI/</guid>
+        <title>Keno game</title>
+        <description>Implementação simples de um Keno Game. Feito em parceria com &lt;a href=&quot;https://github.com/GustavoAC&quot;&gt;Gustavo Araújo&lt;/a&gt;.</description>
+        <pubDate>Wed, 11 May 2016 00:00:00 -0300</pubDate>
+        <link>127.0.0.1:4000/documentos/2016/05/11/Keno-Game/</link>
+        <guid isPermaLink="true">127.0.0.1:4000/documentos/2016/05/11/Keno-Game/</guid>
         
         
         <category>Documentos</category>
@@ -46,26 +46,26 @@
       </item>
     
       <item>
-        <title>Processador de imagens</title>
-        <description>Um simples processador de imagens que processa arquivos de imagem do tipo &quot;.ppm&quot;. Realizado em parceria com &lt;a href=&quot;https://github.com/GustavoAC&quot;&gt;Gustavo Araújo&lt;/a&gt;. &lt;a href=&quot;https://github.com/YuriAlessandro/Algorithms/tree/master/C%2B%2B&quot;&gt;Clique aqui&lt;/a&gt; para seguir para o repositório no GitHub.</description>
-        <pubDate>Wed, 11 May 2016 00:00:00 -0300</pubDate>
-        <link>127.0.0.1:4000/c/2016/05/11/Processador-de-Imagens/</link>
-        <guid isPermaLink="true">127.0.0.1:4000/c/2016/05/11/Processador-de-Imagens/</guid>
+        <title>Processador ppm</title>
+        <description>Um simples processador de imagens do tipo &quot;.ppm&quot;. Feito em parceria com &lt;a href=&quot;https://github.com/GustavoAC&quot;&gt;Gustavo Araújo&lt;/a&gt;.</description>
+        <pubDate>Tue, 10 May 2016 00:00:00 -0300</pubDate>
+        <link>127.0.0.1:4000/documentos/2016/05/10/Processador-PPM/</link>
+        <guid isPermaLink="true">127.0.0.1:4000/documentos/2016/05/10/Processador-PPM/</guid>
         
         
-        <category>C</category>
+        <category>Documentos</category>
         
       </item>
     
       <item>
-        <title>Tads</title>
-        <description>Projeto que implementa diversas estruturas de dados (Tipos Abstratos de Dadados, ou TADs), entre outras coisas. &lt;a href=&quot;https://github.com/YuriAlessandro/Algorithms/tree/master/C%2B%2B&quot;&gt;Clique aqui&lt;/a&gt; para seguir para o repositório no GitHub.</description>
-        <pubDate>Wed, 13 Apr 2016 00:00:00 -0300</pubDate>
-        <link>127.0.0.1:4000/c++/2016/04/13/tads/</link>
-        <guid isPermaLink="true">127.0.0.1:4000/c++/2016/04/13/tads/</guid>
+        <title>Bti documents</title>
+        <description>Compilado com vários documentos do BTI.</description>
+        <pubDate>Tue, 10 May 2016 00:00:00 -0300</pubDate>
+        <link>127.0.0.1:4000/documentos/2016/05/10/BTI-Documents/</link>
+        <guid isPermaLink="true">127.0.0.1:4000/documentos/2016/05/10/BTI-Documents/</guid>
         
         
-        <category>C++</category>
+        <category>Documentos</category>
         
       </item>
     

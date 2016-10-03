@@ -1,0 +1,61 @@
+<h1 id="keno-game">Keno Game</h1>
+<p>Bem vindo ao Keno.</p>
+
+<p>O Keno é um jogo de azar composto por uma tabela com 80 valores, no qual
+o jogador deve escolher até 15 números, entre 1 e 80. O jogo então sorteia 
+20 valores da tabela. Dependendo da quantidade de acertos, o jogador pode
+faturar um prêmio, ou perder o dinheiro apostado.</p>
+
+<h2 id="como-jogar-linux">Como jogar (Linux)</h2>
+<p>Para jogar a partir desse programa é simples: Você deverá criar um arquivo num
+formato qualquer (exemplo: myfile.txt) dentro da pasta data com a seguinte estrutura:</p>
+
+<pre><code class="language-Shell">    DINHEIRO INICIAL
+    RODADAS A SEREM JOGADAS
+    VALORES APOSTADOS
+</code></pre>
+<p>Um exemplo:</p>
+
+<pre><code class="language-Shell">    1500
+    3
+    52 12 60
+</code></pre>
+
+<p>Após salvar o arquivo (na pasta data), você deverá executar o programa em seu
+terminal da seguinte maneira:</p>
+
+<pre><code class="language-Shell">    &amp; ./[Nome do executável] [Nome do arquivo]
+</code></pre>
+
+<p>Um exemplo:</p>
+
+<pre><code class="language-Shell">    &amp; ./KenoGame myfile.txt
+</code></pre>
+
+<p>O jogo então será executado, e você poderá conferir como se saiu.</p>
+
+<p>A pasta ‘data’ possui alguns arquivos exemplos.</p>
+
+<h4 id="dvidas">Dúvidas?</h4>
+<p>Caso esteja com dúvidas, apenas execute o programa sem nenhum argumento no seu
+terminal e um modo padrão será jogado, assim você pode se familiarizar com a interface
+e a mecânica do jogo.</p>
+
+<h2 id="detalhes">Detalhes</h2>
+<p>Este jogo foi desenvolvido em C++11. Para compilar, faça:</p>
+
+<pre><code class="language-Shell">    &amp; g++ -Wall -std=c++11 -I include/ src/keno_main.cpp src/functions.cpp src/classes.cpp -o bin/[nome do arquivo]
+</code></pre>
+
+<h2 id="documentao">Documentação</h2>
+<p>A documentação completa desse programa pode ser encontrada no nosso repositório, em ‘html/index.html’</p>
+
+<h2 id="autores">Autores</h2>
+<p>Jogo criador por:</p>
+
+<pre><code class="language-Shell">    * Gustavo Araújo Carvalho
+    * Yuri Alessandro Martins
+</code></pre>
+
+<p>Realizado como proposta da disciplina de Linguagem de Programação, do curso de
+Bacharelado em Tecnologia da Informação da UFRN.</p>

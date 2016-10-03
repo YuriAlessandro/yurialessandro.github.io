@@ -3,9 +3,11 @@ title: YuriAlessandro
 email: yuri.alessandro@hotmail.com
 url: 127.0.0.1:4000
 description: "Simples expositório com meus projetos variados, o compartilhamento do meu (em desenvolvimento) conhecimento."
-skills: "Estudante do Bacharelado em Tecnologia da Informação - UFRN"
+skills: "C | C++ | LaTeX"
 meta_author: Martins YuriAlessandro
 
+collections:
+  - bbb
 # Google webmaster tools
 google_verify:
 
@@ -25,14 +27,14 @@ disqus_shortname: myshortname
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: 1a1a1a #18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 1a1a1a #2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary-rgb: "26,26,16" #"128,179,255"
+  secondary: 262626 #2c3e50 #FD6E8A
+  secondary-dark: 262626 #233140 #A2122F
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
-  location: Localicação
+  copyright: Dr. Henry Jekyll - alterado por Yuri Alessandro Martins
+  location: Localização
   social: Redes Sociais
   credits: Créditos
 
@@ -55,7 +57,7 @@ address:
   - line: Brasil
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Yuri Alessandro Martins - Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
