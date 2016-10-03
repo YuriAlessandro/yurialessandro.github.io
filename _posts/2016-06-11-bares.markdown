@@ -1,0 +1,10 @@
+---
+layout: default
+modal-id: 1
+date: 2016-05-15
+img: bares.png
+alt: image-alt
+project-date: 2016
+category: C++
+description: <h1> Basic ARithmetic Expression evaluator based on Stacks.</h1> BARES é um programa que analisa uma expressão matemática simples, que contenha constantes numéricas inteiras. Esse programa será capaz de analisar a expressão e dizer se ocorre erros, onde esse erro ocorre, qual o erro e, caso a expressão seja válida, o valor da expressão. Feito em parceria com <a href="https://github.com/GustavoAC">Gustavo Araújo</a>. <a href="https://github.com/YuriAlessandro/BARES">Clique aqui</a> para seguir ao repositório desse programa.
+---
