@@ -13,14 +13,24 @@
                 {{ post.dc }}
                 {% if post.autores%} {{ post.autores }} {% endif %}
                 <hr>       
+                    
+                    <a href="{{ post.repo }}" target="_blank" class="btn btn-danger" role="button">Ver repositório desse projeto</a>
+                    
+                    <a href="{{post.repo}}/archive/master.zip" target="_blank" class="btn btn-primary btn-lg active" role="button">Download</a>
+
+                    <!--
                     <a class="github-button" href="{{ post.repo }}" data-icon="octicon-eye" data-style="mega">Ver repositório desse projeto</a>
                     
                     <a class="github-button" href="{{post.repo}}" data-icon="octicon-repo-forked" data-style="mega" data-count-href="{{post.repo}}/network">Fork</a>
 
                     <a class="github-button" href="{{post.repo}}/archive/master.zip" data-icon="octicon-cloud-download" data-style="mega" aria-label="Download YuriAlessandro/Image-Processor on GitHub">Download</a>
 
+                    -->
+
                 <hr>
+                <div class="video-container">
                 {% if post.video %} {{ post.video }} {% endif %}
+                </div>
                 <hr>
                 {{ post.content }}
             </div>

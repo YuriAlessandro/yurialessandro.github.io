@@ -18,15 +18,22 @@
                             <p>{{ post.description }}</p>
                             <hr>
                             
+                             <a href="{{ post.repo }}" target="_blank" class="btn btn-danger" role="button">Ver repositório desse projeto</a>
+                    
+                            <a href="{{post.repo}}/archive/master.zip" target="_blank" class="btn btn-primary btn-lg active" role="button">Download</a>
+
+                            <!--
                             <a class="github-button" href="{{ post.repo }}" data-icon="octicon-eye" data-style="mega">Ver repositório desse projeto</a>
                             
                             <a class="github-button" href="{{post.repo}}" data-icon="octicon-repo-forked" data-style="mega" data-count-href="{{post.repo}}/network">Fork</a>
 
                             <a class="github-button" href="{{post.repo}}/archive/master.zip" data-icon="octicon-cloud-download" data-style="mega" aria-label="Download YuriAlessandro/Image-Processor on GitHub">Download</a>
+                            -->
 
                             <hr>
                             <a class="github-button" href="https://github.com/YuriAlessandro" data-style="mega" data-count-href="/YuriAlessandro/followers" data-count-api="/users/YuriAlessandro#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @YuriAlessandro on GitHub">Seguir @YuriAlessandro</a>
                             <hr>
+
                             <p align="left">{{ post.content }}</p>
                             <hr>
                             <ul class="list-inline item-details">
@@ -46,5 +53,4 @@
             </div>
         </div>
     </div>
-<script async defer src="https://buttons.github.io/buttons.js"></script>
 {% endfor %}
