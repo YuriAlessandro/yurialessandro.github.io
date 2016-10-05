@@ -1,12 +1,12 @@
 ---
 layout: default
 post-id: 1
-video: <iframe width="560" height="315" src="https://www.youtube.com/embed/lbZMJ7xhJnw" frameborder="0" allowfullscreen></iframe>
+video: <iframe width="560" height="315" src="https://www.youtube.com/embed/toVU9uJVYZ8" frameborder="0" allowfullscreen></iframe>
 date: 2016-10-03
 project-date: Setembro 2016
 category: C++
 description: A simple game using BBB's utensils.
-repo: https://github.com/YuriAlessandro/BARES
+repo: https://github.com/YuriAlessandro/TabbleLightGame
 ---
 # How Works #
 This is a simple game of luck. Using the potentiometer, the player must choose a number in a range that is determined by the photoresist. The game will pick a random number from the same range and the goal is to find the number.
@@ -25,8 +25,8 @@ When hit the random number, a light will illuminate and the final score of the p
 
 Você irá precisar da BeableBone Black configurada. Irá acessar o sistema operacional dela.
 
-ADownload the executable present in the repository and send to your BBB. execute:
+Download the executable (LKG) present in the repository and send to your BBB. Execute:
 
 ```Shell
-    & sudo ./LightTable
+    & sudo ./LKG
 ``` 
