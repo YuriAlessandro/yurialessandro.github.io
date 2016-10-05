@@ -11,6 +11,7 @@
                 <h1>{{ post.title }}</h1>
                 <hr class="star-primary">
                 {{ post.dc }}
+                {% if post.autores%} {{ post.autores }} {% endif %}
                 <hr>       
                     <a class="github-button" href="{{ post.repo }}" data-icon="octicon-eye" data-style="mega">Ver repositório desse projeto</a>
                     

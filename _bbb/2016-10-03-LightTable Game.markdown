@@ -1,6 +1,7 @@
 ---
 layout: default
 post-id: 1
+autores: Yuri Alessandro Martins e Pedro Arthur Fernandes
 video: <iframe width="560" height="315" src="https://www.youtube.com/embed/toVU9uJVYZ8" frameborder="0" allowfullscreen></iframe>
 date: 2016-10-03
 project-date: Setembro 2016
