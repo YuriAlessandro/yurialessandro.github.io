@@ -5,8 +5,8 @@
     <description>Simples expositório com meus projetos variados, o compartilhamento do meu (em desenvolvimento) conhecimento.</description>
     <link>127.0.0.1:4000/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 05 Oct 2016 03:26:55 -0300</pubDate>
-    <lastBuildDate>Wed, 05 Oct 2016 03:26:55 -0300</lastBuildDate>
+    <pubDate>Fri, 07 Oct 2016 11:17:58 -0300</pubDate>
+    <lastBuildDate>Fri, 07 Oct 2016 11:17:58 -0300</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -22,11 +22,23 @@
       </item>
     
       <item>
-        <title>Tads</title>
-        <description>Projeto que implementa diversas estruturas de dados (Tipos Abstratos de Dadados, ou TADs), entre outras coisas.</description>
+        <title>Algoritmos</title>
+        <description>Programas em algumas linguagens de programação, geralmente exercícios das disciplinas do curso de TI da UFRN (BTI - UFRN).</description>
+        <pubDate>Sun, 15 May 2016 00:00:00 -0300</pubDate>
+        <link>127.0.0.1:4000/c,%20c++,%20java,%20assembly/2016/05/15/algoritmos/</link>
+        <guid isPermaLink="true">127.0.0.1:4000/c,%20c++,%20java,%20assembly/2016/05/15/algoritmos/</guid>
+        
+        
+        <category>C, C++, Java, Assembly</category>
+        
+      </item>
+    
+      <item>
+        <title>Estruturas de dados</title>
+        <description>Projeto que implementa diversas estruturas de dados (Tipos Abstratos de Dadados, ou TADs).</description>
         <pubDate>Sat, 14 May 2016 00:00:00 -0300</pubDate>
-        <link>127.0.0.1:4000/c++/2016/05/14/tads/</link>
-        <guid isPermaLink="true">127.0.0.1:4000/c++/2016/05/14/tads/</guid>
+        <link>127.0.0.1:4000/c++/2016/05/14/estruturas-de-dados/</link>
+        <guid isPermaLink="true">127.0.0.1:4000/c++/2016/05/14/estruturas-de-dados/</guid>
         
         
         <category>C++</category>
@@ -46,26 +58,14 @@
       </item>
     
       <item>
-        <title>Processador de imagens</title>
-        <description>Um simples processador de imagens que processa arquivos de imagem do tipo &quot;.ppm&quot;. Realizado em parceria com &lt;a href=&quot;https://github.com/GustavoAC&quot;&gt;Gustavo Araújo&lt;/a&gt;. &lt;a href=&quot;https://github.com/YuriAlessandro/Algorithms/tree/master/C%2B%2B&quot;&gt;Clique aqui&lt;/a&gt; para seguir para o repositório no GitHub.</description>
-        <pubDate>Wed, 11 May 2016 00:00:00 -0300</pubDate>
-        <link>127.0.0.1:4000/c/2016/05/11/Processador-de-Imagens/</link>
-        <guid isPermaLink="true">127.0.0.1:4000/c/2016/05/11/Processador-de-Imagens/</guid>
-        
-        
-        <category>C</category>
-        
-      </item>
-    
-      <item>
         <title>Keno game</title>
         <description>Implementação simples de um Keno Game. Feito em parceria com &lt;a href=&quot;https://github.com/GustavoAC&quot;&gt;Gustavo Araújo&lt;/a&gt;.</description>
         <pubDate>Wed, 11 May 2016 00:00:00 -0300</pubDate>
-        <link>127.0.0.1:4000/documentos/2016/05/11/Keno-Game/</link>
-        <guid isPermaLink="true">127.0.0.1:4000/documentos/2016/05/11/Keno-Game/</guid>
+        <link>127.0.0.1:4000/c++/2016/05/11/Keno-Game/</link>
+        <guid isPermaLink="true">127.0.0.1:4000/c++/2016/05/11/Keno-Game/</guid>
         
         
-        <category>Documentos</category>
+        <category>C++</category>
         
       </item>
     
@@ -73,23 +73,11 @@
         <title>Processador ppm</title>
         <description>Um simples processador de imagens do tipo &quot;.ppm&quot;. Feito em parceria com &lt;a href=&quot;https://github.com/GustavoAC&quot;&gt;Gustavo Araújo&lt;/a&gt;.</description>
         <pubDate>Tue, 10 May 2016 00:00:00 -0300</pubDate>
-        <link>127.0.0.1:4000/documentos/2016/05/10/Processador-PPM/</link>
-        <guid isPermaLink="true">127.0.0.1:4000/documentos/2016/05/10/Processador-PPM/</guid>
+        <link>127.0.0.1:4000/c/2016/05/10/Processador-PPM/</link>
+        <guid isPermaLink="true">127.0.0.1:4000/c/2016/05/10/Processador-PPM/</guid>
         
         
-        <category>Documentos</category>
-        
-      </item>
-    
-      <item>
-        <title>Bti documents</title>
-        <description>Compilado com vários documentos do BTI.</description>
-        <pubDate>Tue, 10 May 2016 00:00:00 -0300</pubDate>
-        <link>127.0.0.1:4000/documentos/2016/05/10/BTI-Documents/</link>
-        <guid isPermaLink="true">127.0.0.1:4000/documentos/2016/05/10/BTI-Documents/</guid>
-        
-        
-        <category>Documentos</category>
+        <category>C</category>
         
       </item>
     

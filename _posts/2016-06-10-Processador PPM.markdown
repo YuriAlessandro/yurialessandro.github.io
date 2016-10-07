@@ -5,7 +5,7 @@ date: 2016-05-10
 img: ppm.png
 alt: image-alt
 project-date: Maio 2016
-category: Documentos
+category: C
 description: Um simples processador de imagens do tipo ".ppm". Feito em parceria com <a href="https://github.com/GustavoAC">Gustavo Araújo</a>.
 repo: https://github.com/YuriAlessandro/Image-Processor
 ---

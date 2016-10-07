@@ -5,7 +5,7 @@ date: 2016-05-11
 img: keno.png
 alt: image-alt
 project-date: Maio 2016
-category: Documentos
+category: C++
 description: Implementação simples de um Keno Game. Feito em parceria com <a href="https://github.com/GustavoAC">Gustavo Araújo</a>.
 repo: https://github.com/YuriAlessandro/KenoGame
 ---
