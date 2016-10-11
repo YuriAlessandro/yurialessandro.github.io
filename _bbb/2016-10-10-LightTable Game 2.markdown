@@ -2,7 +2,7 @@
 layout: default
 post-id: 3
 autores: Yuri Alessandro Martins e Pedro Arthur Fernandes
-video: <iframe width="560" height="315" src="https://www.youtube.com/embed/toVU9uJVYZ8" frameborder="0" allowfullscreen></iframe>
+video: <iframe width="560" height="315" src="https://www.youtube.com/embed/7tozcF_-gu4" frameborder="0" allowfullscreen></iframe>
 date: 2016-10-10
 project-date: Outubro 2016
 category: C++
