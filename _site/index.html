@@ -257,6 +257,13 @@
                     
                     <hr>
                 
+                    <a href="#post-3" class="portfolio-link" data-toggle="modal">
+                    <h2> - Lighttable game 2</h2>
+                    
+                    </a>
+                    
+                    <hr>
+                
             </div>
         </div>
     </section>
@@ -357,6 +364,73 @@
                 <p>Esse é um simples projeto que cria uma família de processos utilizando a função fork de C++</p>
 
 <p>O vídeo exeplifica a funcionalidade desse código e você pode baixar e testar em seu computador utilizando o botão de download abaixo do título desse post.</p>
+
+            </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="post-3">
+    <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <h1>Lighttable game 2</h1>
+                <hr class="star-primary">
+                
+                 Yuri Alessandro Martins e Pedro Arthur Fernandes 
+                <hr>       
+                    
+                    <a href="https://github.com/YuriAlessandro/TabbleLightGame2" target="_blank" class="btn btn-danger" role="button">Ver repositório desse projeto</a>
+                    
+                    <a href="https://github.com/YuriAlessandro/TabbleLightGame2/archive/master.zip" target="_blank" class="btn btn-primary btn-lg active" role="button">Download</a>
+
+                    <!--
+                    <a class="github-button" href="https://github.com/YuriAlessandro/TabbleLightGame2" data-icon="octicon-eye" data-style="mega">Ver repositório desse projeto</a>
+                    
+                    <a class="github-button" href="https://github.com/YuriAlessandro/TabbleLightGame2" data-icon="octicon-repo-forked" data-style="mega" data-count-href="https://github.com/YuriAlessandro/TabbleLightGame2/network">Fork</a>
+
+                    <a class="github-button" href="https://github.com/YuriAlessandro/TabbleLightGame2/archive/master.zip" data-icon="octicon-cloud-download" data-style="mega" aria-label="Download YuriAlessandro/Image-Processor on GitHub">Download</a>
+
+                    -->
+
+                <hr>
+                <div class="video-container">
+                 <iframe width="560" height="315" src="https://www.youtube.com/embed/toVU9uJVYZ8" frameborder="0" allowfullscreen></iframe> 
+                </div>
+                <hr>
+                <h1 id="table-light-game-v2">Table Light Game v2</h1>
+<p>This is almost the same thing the previous version.
+However it has an interesting extra: the player should be able to guess the number within one minute.</p>
+
+<p>Below you can remember how the first version works - but remember, you have only one minute.</p>
+
+<h1 id="the-code">The Code</h1>
+<p>For this version we use the function “fork” of C ++. With it, we created two processes (a father and son) that run at the same time.</p>
+
+<p>The child process has the responsibility to run the entire game - it continues being basically the same thing the previous version. This is where all logics and testings will occur to ensure that the user can play.</p>
+
+<p>The parent process is over to “pass the time”. In it, we use an “alarm” signal to determine when pass 60 seconds since the program being run, it calls a function that indicates the user that the time is up and, because of that, he lost the game.</p>
+
+<h1 id="how-works">How Works</h1>
+<p>This is a simple game of luck. Using the potentiometer, the player must choose a number in a range that is determined by the photoresist. The game will pick a random number from the same range and the goal is to find the number.</p>
+
+<p>If there is little light, so the game will be easy. Otherwise, the game will become more complicated.</p>
+
+<p>But that version 2 has an additional interesting: the player should be able to guess the number within one minute.</p>
+
+<p>After choosing a position potentiometer (which will be your number), the player must press the button to register your bid. The number that corresponds to what you have determined the potentiometer will be displayed on your computer screen.</p>
+
+<p>If the player passes by, a blue light will appear, indicating that the attempt is near the random number for the game, and the player loses 5 points (from a total of 100 initial).</p>
+
+<p>However, if the attempt is far away, a red light will illuminate. In this case, the player loses 2 points.</p>
+
+<p>When hit the random number, a light will illuminate and the final score of the player will be shown on screen. Every attempt, the player is able to see what your score and what was his last attempt, If you reach 0 points, he loses.</p>
+
+<p>```</p>
 
             </div>
     </div>
