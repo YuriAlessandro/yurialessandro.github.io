@@ -7,7 +7,7 @@ date: 2016-10-10
 project-date: Outubro 2016
 category: C++
 description: A simple game using BBB's utensils and fork function.
-repo: https://github.com/YuriAlessandro/TabbleLightGame2
+repo: https://github.com/YuriAlessandro/LightTableGame2
 ---
 # Table Light Game v2#
 This is almost the same thing the previous version.
