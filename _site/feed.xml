@@ -5,9 +5,33 @@
     <description>Simples expositório com meus projetos variados, o compartilhamento do meu (em desenvolvimento) conhecimento.</description>
     <link>127.0.0.1:4000/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 10 Oct 2016 23:46:05 -0300</pubDate>
-    <lastBuildDate>Mon, 10 Oct 2016 23:46:05 -0300</lastBuildDate>
+    <pubDate>Tue, 06 Dec 2016 11:19:06 -0300</pubDate>
+    <lastBuildDate>Tue, 06 Dec 2016 11:19:06 -0300</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>System monitor</title>
+        <description>Gerenciador de tarefas desenvolvido para Linux/Ubuntu, como interface de usuário. &lt;a href=&quot;https://github.com/pedroarthur-mf/Gerenciador-de-Tarefas&quot;&gt;Clique aqui&lt;/a&gt; para seguir para o repositório no GitHub.</description>
+        <pubDate>Tue, 06 Dec 2016 00:00:00 -0300</pubDate>
+        <link>127.0.0.1:4000/c++/2016/12/06/System-Monitor/</link>
+        <guid isPermaLink="true">127.0.0.1:4000/c++/2016/12/06/System-Monitor/</guid>
+        
+        
+        <category>C++</category>
+        
+      </item>
+    
+      <item>
+        <title>Musicplayer</title>
+        <description>Um player de música simples, desenvolvido em Java. &lt;a href=&quot;https://github.com/YuriAlessandro/MusicPlayer&quot;&gt;Clique aqui&lt;/a&gt; para seguir para o repositório no GitHub.</description>
+        <pubDate>Tue, 06 Dec 2016 00:00:00 -0300</pubDate>
+        <link>127.0.0.1:4000/java/2016/12/06/MusicPlayer/</link>
+        <guid isPermaLink="true">127.0.0.1:4000/java/2016/12/06/MusicPlayer/</guid>
+        
+        
+        <category>Java</category>
+        
+      </item>
     
       <item>
         <title>Bares</title>

@@ -2,7 +2,7 @@
 layout: default
 modal-id: 6
 date: 2016-05-15
-img: keno.png
+img: dblue.png
 alt: image-alt
 project-date: Maio 2016
 category: C, C++, Java, Assembly 

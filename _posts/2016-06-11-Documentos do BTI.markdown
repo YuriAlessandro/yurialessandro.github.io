@@ -2,7 +2,7 @@
 layout: default
 modal-id: 2
 date: 2016-05-12
-img: btid.png
+img: docs.png
 alt: image-alt
 project-date: 2016
 category: Documentos

@@ -2,7 +2,7 @@
 layout: default
 modal-id: 1
 date: 2016-05-14
-img: bd.png
+img: grey.png
 alt: image-alt
 project-date: Maio 2016
 category: C++

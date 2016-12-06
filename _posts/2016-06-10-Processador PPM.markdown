@@ -2,7 +2,7 @@
 layout: default
 modal-id: 4
 date: 2016-05-10
-img: ppm.png
+img: red.png
 alt: image-alt
 project-date: Maio 2016
 category: C
